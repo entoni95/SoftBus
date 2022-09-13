@@ -1,0 +1,15 @@
+<orario>
+    <viaggio>
+<partenza>
+<citta>Foggia</citta>
+<ora>06:45</ora>
+</partenza>
+<arrivo>
+<citta>San Severo</citta>
+<ora>07:25</ora>
+</arrivo>
+<note>feriale</note>
+<compagnia>Fer Gar</compagnia>
+<imgcompagnia></imgcompagnia>
+</viaggio>
+</orario>

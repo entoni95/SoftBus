@@ -1,0 +1,30 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT orario (percorso)>
+<!ATTLIST orario
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT percorso (arrivo|compagnia|imgcompagnia|note|partenza)+>
+<!ATTLIST percorso
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT arrivo (citta,ora)>
+<!ATTLIST arrivo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT compagnia (#PCDATA)>
+<!ATTLIST compagnia
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT imgcompagnia (#PCDATA)>
+<!ATTLIST imgcompagnia
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT note (#PCDATA)>
+<!ATTLIST note
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT partenza (citta,ora)>
+<!ATTLIST partenza
+  xmlns CDATA #FIXED ''>
+

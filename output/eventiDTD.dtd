@@ -1,0 +1,21 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT FTEvents (evento)+>
+<!ATTLIST FTEvents
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT evento (immagine,titolo,luogo)>
+<!ATTLIST evento
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT immagine (#PCDATA)>
+<!ATTLIST immagine
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT titolo (#PCDATA)>
+<!ATTLIST titolo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT luogo (#PCDATA)>
+<!ATTLIST luogo
+  xmlns CDATA #FIXED ''>
